@@ -1,0 +1,36 @@
+N64LevelEditor/
+│
+├── src/
+│   ├── main.c                 (Main source code for the level editor)
+│
+├── include/
+│   ├── level_editor.h         (Header file for the level editor)
+│
+├── assets/
+│   ├── textures/             (Texture files for the editor)
+│   ├── models/               (3D models for the editor)
+│   ├── audio/                (Sound and music files)
+│
+├── lib/
+│   ├── libn64graphics.a       (Graphics library for N64)
+│   ├── libn64audio.a          (Audio library for N64)
+│
+├── tools/
+│   ├── n64compiler/          (Compiler and tools for N64 development)
+│
+├── documentation/
+│   ├── README.md              (Documentation on how to use the editor)
+│   ├── user_guide.md          (User guide for the level editor)
+│
+├── build/                     (Build artifacts, generated during compilation)
+│
+├── tests/                     (Unit tests for the editor, if applicable)
+│
+└── makefile                   (Build script for compiling the level editor)
+│
+├── features/
+│   ├── background_editor/     (Source code and assets for background editing)
+│   ├── block_menu/            (Code and assets for adding a block menu)
+│   ├── performance_optimization/ (Optimization code to reduce lag)
+│   ├── zoom/                  (Code for zoom in and zoom out functionality)
+│   ├── enemy_actor/           (Code and assets for enemy and actor integration)
